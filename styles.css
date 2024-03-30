@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Color de fondo negro */
+    font-family: 'Arial', sans-serif; /* Fuente genérica */
+    color: #fff; /* Texto blanco */
+}
+
+#title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#logo {
+    max-width: 90px;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Hace que el logo sea redondeado */
+    background-color: #fff; /* Agrega un fondo blanco al logo */
+    padding: 5px; /* Espacio alrededor del logo */
+}
+
+#clickButton {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Botón redondo */
+    font-size: 24px;
+    background-color: #f00; /* Rojo */
+    color: #fff; /* Texto blanco */
+    border: 3px solid #fff; /* Borde blanco */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+#clickButton:hover {
+    background-color: #f22; /* Rojo más claro al pasar el ratón */
+}
+
+#clickButton:active {
+    transform: scale(0.95); /* Reducción de tamaño al hacer clic */
+}
+
+#info {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
