@@ -34,7 +34,7 @@ body {
     color: #000; /* Color de texto negro */
     border: 3px solid #ffcc00; /* Mismo color que el fondo */
     cursor: pointer;
-    outline: none;
+    outline: none; /* Eliminar el resaltado al hacer clic */
     transition: background-color 0.3s, transform 0.2s;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Relieve al texto */
