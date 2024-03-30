@@ -75,14 +75,3 @@ body {
 }
 
 
-    #info {
-        font-size: 18px;
-        text-align: center;
-    }
-}
-
-#clickButton:hover {
-    background-color: #ffdb4d; /* Color de fondo al pasar el cursor */
-}
-
-
