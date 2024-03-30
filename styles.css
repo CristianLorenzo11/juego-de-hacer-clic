@@ -66,6 +66,17 @@ body {
 
     #info {
         font-size: 18px;
+        text-align: center; /* Alineación central del texto */
+    }
+
+    p {
+        text-align: center; /* Alineación central del texto */
+    }
+}
+
+
+    #info {
+        font-size: 18px;
         text-align: center;
     }
 }
